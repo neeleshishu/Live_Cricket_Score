@@ -7,6 +7,10 @@
     background-color: black;
 }
 
+.match{
+    align-items: center;
+}
+
 #opp1 , #opp2{
     padding: 10px;
     color: lightcoral;
@@ -17,7 +21,7 @@
 
 .main_layer{
     background-color:rgb(38, 37, 35);
-    font-size: 4rem;
+    font-size: 3rem;
     width: 50%;
     position: absolute;
     top: 17rem;
@@ -35,5 +39,5 @@ hr{
     border-bottom: none;
 }
 .scorebord{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
