@@ -1,4 +1,4 @@
-
+alert('if you are using this in mobile then use desktop mode for better experience');
 const info = async (event) => {
     const api = await fetch(`
 https://api.cricapi.com/v1/currentMatches?apikey=40d0cb22-ed60-49c9-b417-4fdbadbf693e&offset=0`);
