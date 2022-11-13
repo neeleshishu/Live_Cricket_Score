@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+.main{
+    background-color: black;
+}
+
+#opp1 , #opp2{
+    padding: 10px;
+    color: lightcoral;
+}
+.match{
+    text-align: center;
+}
+
+.main_layer{
+    background-color:rgb(38, 37, 35);
+    font-size: 4rem;
+    width: 50%;
+    position: absolute;
+    top: 17rem;
+    left: 16rem;
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+hr{
+    border: 1px dotted whitesmoke;
+    width: 54px;
+    margin: auto;
+    border-width: 9px;
+    border-bottom: none;
+}
+.scorebord{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
