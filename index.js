@@ -1,8 +1,12 @@
 alert('if you are using this in mobile then use desktop mode for better experience');
 const info = async (event) => {
     const api = await fetch(`
-https://api.cricapi.com/v1/currentMatches?apikey=40d0cb22-ed60-49c9-b417-4fdbadbf693e&offset=0`);
-    const dat = await api.json();
+https://api.cricapi.com/v1/currentMatches?apikey=40d0cb22-ed60-49c9-b417-4fdbadbf693e&offset=0`).then( (dat) =>{
+    dat = api.json()
+}).catch( (error) => {
+    console.log(error);
+});
+    
     try {
         if (!dat.data[0]) {
             document.getElementById('status').innerText = dat.status;
@@ -19,6 +23,8 @@ https://api.cricapi.com/v1/currentMatches?apikey=40d0cb22-ed60-49c9-b417-4fdbadb
             document.getElementById('opp1').innerText = dat.data[0].teamInfo[0].name;
             document.getElementById('opp2').innerText = dat.data[0].teamInfo[1].name;
             document.getElementById('status').innerText = dat.data[0].status;
+            document.getElementById('img1').innerHTML = `<img src="${dat.data[0].teamInfo[1].name}">`;
+            document.getElementById('img2').innerHTML = `<img src="${dat.data[0].teamInfo[1].name}">`;
 
         } else {
             document.getElementById('type').innerText = dat.data[0].matchType;
