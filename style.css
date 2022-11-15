@@ -14,30 +14,15 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#opp1{
-    position: absolute;
-    top: 9rem;
-    left: 9rem;
-    padding: 10px;
-    color: lightcoral;
-}
-.vs{
-    position: absolute;
-    top: 9rem;
-    left: 29rem;
-    font-family: sans-serif;
-    padding: 10px;
-    color: #1b1919;
-}
-#opp2{
-    position: absolute;
-    top: 9rem;
-    left: 36rem;
-    padding: 10px;
-    color: lightcoral;
-}
+
 .match{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -33rem;
+}
+#opp1, #opp2, .vs{
+    padding: 7px;
+    color: lightsalmon;
 }
 
 .main_layer{
