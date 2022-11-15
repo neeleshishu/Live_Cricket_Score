@@ -10,8 +10,29 @@
 .match{
     align-items: center;
 }
+#type{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-#opp1 , #opp2{
+#opp1{
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    padding: 10px;
+    color: lightcoral;
+}
+.vs{
+    position: absolute;
+    top: 9rem;
+    left: 29rem;
+    font-family: sans-serif;
+    padding: 10px;
+    color: #1b1919;
+}
+#opp2{
+    position: absolute;
+    top: 9rem;
+    left: 36rem;
     padding: 10px;
     color: lightcoral;
 }
@@ -21,7 +42,7 @@
 
 .main_layer{
     background-color:rgb(38, 37, 35);
-    font-size: 3rem;
+    font-size: 1rem;
     width: 50%;
     position: absolute;
     top: 17rem;
@@ -39,5 +60,6 @@ hr{
     border-bottom: none;
 }
 .scorebord{
-    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 36px;
 }
