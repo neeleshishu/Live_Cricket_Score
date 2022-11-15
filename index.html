@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Live Cricket Score</title>
+    
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="main">
     <h1 class="header">Live Cricket Score</h1>
     </div>
-     <div class="img1">
-    
+    <h1 id="type" style="text-align:center ;"></h1>
+     <div class="img1" id="img1">
     </div>
-    <div class="img2" style="position: absolute;
+    <div class="img2" id="img2" style="position: absolute;
     top: 87px;
     right: 1px;">
     
@@ -21,7 +22,7 @@
 
 <div class="match">
     <h1 id="opp1"></h2>
-    <h2>V/S</h1>
+    <h2 class="vs">V/S</h1>
     <h1 id="opp2"></h2>
 </div>
 <div>
@@ -31,17 +32,18 @@
 
 <div class="main_layer" id="main_layer">
   <p id="status"> </p>
-    <h1 id="type"></h1>
+   
     <hr>
     <h1 id="name"></h1>
     <hr>
-    <h2 id="inning"></h2>
-    <hr>
     <p class="scorebord"><span id="run"></span>/<span id="wicket"></span> (<span id="over"></span> ovs)</p>
+    <hr>
+    <h2 id="inning"></h2>
+    
+    
 
         
 </div>
-
-  <script src="index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
