@@ -12,6 +12,14 @@ body{
     background-color: black;
 }
 
+.mainmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .match{
     align-items: center;
 }
