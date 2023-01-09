@@ -1,4 +1,3 @@
-alert('if you are using this in mobile then use desktop mode for better experience');
 //alert('if you are using this in mobile then use desktop mode for better experience');
 const info = async (event) => {
     try{
